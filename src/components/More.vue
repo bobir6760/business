@@ -49,9 +49,14 @@ export default {
 .more-info__title {
   font-size: 33px;
   font-weight: bold;
+  cursor: pointer;
+}
+.more-info__title:hover {
+  text-decoration: underline;
 }
 .more-info__subtitle {
   font-size: 18px;
+  cursor: pointer;
 }
 .more-btn {
   padding: 15px 40px;
@@ -62,11 +67,15 @@ export default {
   cursor: pointer;
 }
 .more-btn:active {
-  font-size: 20px;
   color: #cef9f9;
+}
+.more-btn:hover {
+  transition: 0.3s;
+  box-shadow: inset 25px 0 0 0 #4094ff;
 }
 .more-image img {
   width: 100%;
+  cursor: pointer;
 }
 .more-item {
   display: flex;

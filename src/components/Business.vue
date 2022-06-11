@@ -8,6 +8,7 @@
             We have the Best Solution <br />for your Business
           </div>
         </div>
+
         <div class="business-item">
           <div class="business-item__block">
             <div class="business-item__image">
@@ -21,6 +22,7 @@
               diam nonumy.
             </div>
           </div>
+
           <div class="business-item__block">
             <div class="business-item__image">
               <img src="@/assets/img/layk.svg" alt="" />
@@ -33,6 +35,7 @@
               diam nonumy.
             </div>
           </div>
+
           <div class="business-item__block">
             <div class="business-item__image">
               <img src="@/assets/img/naushnik.svg" alt="" />
@@ -74,25 +77,29 @@ export default {
   background-clip: text;
   font-weight: bold;
   font-size: 24px;
+  cursor: pointer;
 }
 .business-info__subtitle {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .business-item {
   display: flex;
   background: #e0e4fc;
-  border-radius: 20px;
-  padding: 30px;
+  border-radius: 10px;
   justify-content: space-between;
+  padding: 30px;
 }
 .business-item__title {
   font-size: 25px;
   font-weight: bold;
+  cursor: pointer;
 }
 .business-item__subtitle {
   font-size: 15px;
+  cursor: pointer;
 }
 .business-item__block {
   display: flex;
@@ -101,6 +108,7 @@ export default {
 }
 .business-item__image {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .business-info__subtitle {

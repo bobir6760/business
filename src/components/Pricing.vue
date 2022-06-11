@@ -37,9 +37,11 @@ export default {
 .pricing-wrapper__title {
   font-size: 40px;
   font-weight: bold;
+  cursor: pointer;
 }
 .pricing-wrapper__subtitle {
   font-size: 18px;
+  cursor: pointer;
 }
 .pricing-btn {
   cursor: pointer;
@@ -51,7 +53,11 @@ export default {
   font-size: 14px;
 }
 .pricing-btn:active {
-  color: aqua;
+  color: #B2D2FB;
+}
+.pricing-btn:hover {
+  transition: 0.3s;
+  box-shadow: inset 30px 0 0 0 #4094ff;
 }
 @media screen and (max-width: 992px) {
   .pricing-wrapper__title {

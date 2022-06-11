@@ -75,6 +75,7 @@ export default {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+  cursor: pointer;
 }
 .address-text {
   display: flex;
@@ -93,10 +94,12 @@ export default {
 .address-text__title {
   font-weight: bold;
   font-size: 18px;
+  cursor: pointer;
 }
 .address-block__title {
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
 }
 .address-block__subtitle {
   font-size: 10px;
@@ -105,6 +108,12 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.address-image img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
   .address-text__title {

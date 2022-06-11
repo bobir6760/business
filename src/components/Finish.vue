@@ -86,6 +86,7 @@ export default {
   color: white;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 .finish-info__item {
   display: flex;
@@ -107,6 +108,7 @@ export default {
 .finish-block__title {
   font-size: 25px;
   font-weight: bold;
+  cursor: pointer;
 }
 .finish-block__subtitle {
   font-weight: bold;
@@ -126,9 +128,11 @@ export default {
   background: white;
   cursor: pointer;
 }
-.finish-btn:active {
-  color: aqua;
-  background: #2b2e3c;
+.finish-btn:hover {
+  transition: 0.7s;
+  box-shadow: inset 250px 0 0 0 #4094ff;
+  color: white;
+
 }
 .finish-block__item {
   display: flex;
@@ -141,9 +145,11 @@ export default {
 }
 .finish-text__title {
   color: #b0b4b4;
+  cursor: pointer;
 }
 .finish-image img {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .finish-block__item input {

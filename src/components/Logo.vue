@@ -38,6 +38,7 @@ export default {
 }
 .logo-wrapper__image img {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .logo-wrapper {

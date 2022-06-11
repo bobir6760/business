@@ -73,10 +73,15 @@ export default {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  cursor: pointer;
+}
+.level-info__title:hover {
+  text-decoration: underline;
 }
 .level-info__subtitle {
   font-size: 35px;
   font-weight: bold;
+  cursor: pointer;
 }
 .level-item__block {
   display: flex;
@@ -90,6 +95,7 @@ export default {
 }
 .level-item__image img {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .level-info__title {
@@ -130,6 +136,6 @@ export default {
   }
   .level-item__title {
     font-size: 14px;
-  } 
+  }
 }
 </style>

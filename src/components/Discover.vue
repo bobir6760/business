@@ -79,13 +79,17 @@ export default {
   background-clip: text;
   font-size: 25px;
   font-weight: bold;
+  cursor: pointer;
 }
 .discover-info__subtitle {
   font-size: 50px;
   font-weight: bold;
+  cursor: pointer;
 }
+
 .disvover-info__subtitle {
   font-size: 16px;
+  cursor: pointer;
 }
 .discover-block {
   display: flex;
@@ -105,12 +109,14 @@ export default {
 .discover-item__title {
   font-size: 22px;
   font-weight: bold;
+  cursor: pointer;
 }
 .discover-item__subtitle {
   font-size: 18px;
 }
 .discover-item__image img {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
   .discover-info__subtitle {

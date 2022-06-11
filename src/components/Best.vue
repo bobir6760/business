@@ -46,9 +46,12 @@ export default {
 .best-info__title {
   font-size: 40px;
   font-weight: bold;
+  cursor: pointer;
 }
 .best-info__subtitle {
   font-size: 18px;
+    cursor: pointer;
+
 }
 .best-info__item {
   display: flex;
@@ -64,13 +67,18 @@ export default {
 .best-btn {
   padding: 14px 40px;
   border-radius: 12px;
-  border: none;
   color: white;
   background: black;
   cursor: pointer;
 }
 .best-btn:active {
-  color: aqua;
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+.best-btn:hover {
+  transition: 0.3s;
+  box-shadow: inset 25px 0 0 0 #4094FF;
 }
 @media screen and (max-width: 768px) {
   .best-info__title {

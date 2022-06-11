@@ -46,10 +46,15 @@ export default {
 .navbar-info__subtitle {
   display: flex;
   gap: 30px;
+  cursor: pointer;
+}
+.navbar-info__subtitle p:hover {
+  text-decoration: underline;
 }
 .navbar-info__title {
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 .navbar-btn {
   padding: 16px 40px;
@@ -60,7 +65,11 @@ export default {
   cursor: pointer;
 }
 .navbar-btn:active {
-  color: aqua;
+  color: #B2D2FB;
+}
+.navbar-btn:hover {
+  transition: 0.3s;
+  box-shadow: inset 25px 0 0 0 #4094FF;
 }
 @media screen and (max-width: 992px) {
   .navbar-info__subtitle {

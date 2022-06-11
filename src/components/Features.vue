@@ -67,6 +67,10 @@ export default {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
+  cursor: pointer;
+}
+.features-info__title:hover {
+  text-decoration: underline;
 }
 .features-item {
   display: flex;
@@ -83,6 +87,7 @@ export default {
 .features-item__title {
   font-size: 30px;
   font-weight: bold;
+  cursor: pointer;
 }
 .features-item__subtitle {
   font-size: 16px;
@@ -91,6 +96,7 @@ export default {
   width: 70px;
   height: 70px;
   object-fit: contain;
+  cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
   .features-item {
