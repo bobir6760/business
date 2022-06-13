@@ -57,10 +57,9 @@ export default {
   cursor: pointer;
 }
 .navbar-btn {
-  padding: 16px 40px;
+  padding: 12px 36px;
   background: #1d2130;
   color: white;
-  border: none;
   border-radius: 12px;
   cursor: pointer;
 }

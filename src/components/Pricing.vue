@@ -47,7 +47,6 @@ export default {
   cursor: pointer;
   padding: 16px 40px;
   border-radius: 10px;
-  border: none;
   background: #1d2130;
   color: white;
   font-size: 14px;

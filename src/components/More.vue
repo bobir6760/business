@@ -61,7 +61,6 @@ export default {
 .more-btn {
   padding: 15px 40px;
   border-radius: 10px;
-  border: none;
   color: white;
   background: #1d2130;
   cursor: pointer;
@@ -71,7 +70,7 @@ export default {
 }
 .more-btn:hover {
   transition: 0.3s;
-  box-shadow: inset 25px 0 0 0 #4094ff;
+  box-shadow: inset 32px 0 0 0 #4094ff;
 }
 .more-image img {
   width: 100%;
